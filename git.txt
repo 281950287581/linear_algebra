@@ -1,0 +1,18 @@
+   49  ssh-keygen -t rsa -b 2048
+   50  git add numpy io/.
+   51  git add 'numpy io'/.
+   52  git commit -m "NumPy IO 模块"
+   53* git remote add oringin https://github.com/281950287581/linear_algebra.git
+   54  git pull --rebase origin master
+   55  git push -u origin master
+   56  git add '特殊函数'/.
+   57  git commit -m "特殊函数"
+   58  git remote add https://github.com/281950287581/linear_algebra.git
+   59  git pull --rebase origin master
+   60  git push -u origin master
+   61  git add requirements.txt
+   62  git commit -m "用于记录所有依赖包及其精确的版本号。以便新环境部署"
+   63  git remote add https://github.com/281950287581/linear_algebra.git
+   64  git pull --rebase origin master
+   65  git push -u origin master
+   66  history
